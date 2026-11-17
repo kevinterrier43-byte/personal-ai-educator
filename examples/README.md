@@ -1,14 +1,12 @@
 # Example outputs
 
-Cheat sheets the educator generated at the end of a course. I copy each one by hand into my study binder.
+Cheat sheets the educator generated at the end of a course. I print each one and keep it with my notes.
 
 ## AI Projects (1 page)
 
 ![AI Projects cheat sheet](../assets/ai-projects-cheat-sheet.jpg)
 
 ## Terminal (1 page)
-
-Printed, with notes I added by hand while studying.
 
 ![Terminal cheat sheet](../assets/terminal-cheat-sheet.jpg)
 

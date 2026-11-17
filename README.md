@@ -1,6 +1,6 @@
 # Personal AI Educator
 
-A personal AI tutor I designed for how I actually learn. I type a topic, it teaches me step by step while I take handwritten notes, and when the course is done it generates a one-page, handwritten-style cheat sheet that I copy onto paper for my study binder.
+A personal AI tutor I designed for how I actually learn. I type a topic, it teaches me step by step while I take handwritten notes, and when the course is done it generates a one-page cheat sheet that I print and keep for quick reference.
 
 > **What this repo is:** the design of a configured AI assistant (instructions, lesson format, grounding sources, and lessons learned), not a standalone coded application. It runs as a ChatGPT Project grounded in a Google Drive folder I maintain.
 
@@ -8,20 +8,20 @@ A personal AI tutor I designed for how I actually learn. I type a topic, it teac
 
 ![My handwritten study notes (left) and the cheat sheet the educator generated from the course (right)](assets/notes-to-cheat-sheet.jpg)
 
-<sub>Left: a page of my handwritten notes from the Terminal course. Right: the one-page cheat sheet the educator generated, printed with my handwritten additions.</sub>
+<sub>Left: a page of my handwritten notes from the Terminal course. Right: the one-page cheat sheet the educator generated at the end of the course, which I print and keep.</sub>
 
 ---
 
 ## The problem
 
-I learn best by writing things down and then compressing everything onto one page I can keep in a binder. Generic AI chat is good at answering questions, but it doesn't teach that way. It jumps between levels, skips practice, forgets the format I want, and produces summaries that are either too long to copy by hand or too thin to be useful.
+I learn best by writing things down during a lesson, then having everything compressed onto one page I can keep and come back to. Generic AI chat is good at answering questions, but it doesn't teach that way. It jumps between levels, skips practice, forgets the format I want, and produces summaries that are either too long to use as a quick reference or too thin to be useful.
 
 I wanted a tutor that would:
 
 - Start from a single word or phrase. Typing "Terminal" should be enough to begin a course.
 - Teach in a consistent, structured way, with practice and feedback, not just explanations.
 - Adapt to how I learn, using real assessment results as a starting point.
-- End with a one-page A4 cheat sheet in a black-and-white pen style I can copy by hand.
+- End with a one-page A4 cheat sheet I can print and keep as a quick reference.
 
 ## How it works
 
@@ -31,8 +31,8 @@ I wanted a tutor that would:
 | **2. Roadmap** | The educator proposes a course plan: number of lessons and estimated time. |
 | **3. Lessons** | Each lesson follows the same six-step format (below). I take handwritten notes as we go. |
 | **4. Knowledge checks** | I answer a question before the answer is revealed; the educator grades my reasoning and corrects gaps. |
-| **5. Cheat sheet** | At the end, it compresses the course into one A4 page (front and back at most), in a handwritten pen style with no color. |
-| **6. Copy by hand** | I rewrite the sheet onto paper. Writing it out is part of the learning. |
+| **5. Cheat sheet** | At the end, it compresses the course into one A4 page (front and back at most), designed to be printed. |
+| **6. Print and keep** | I print the sheet and keep it with my notes for quick reference. |
 
 ### Lesson format
 
@@ -55,7 +55,7 @@ flowchart TB
     LS --> K[Knowledge check<br/>+ feedback]
     K -->|next lesson| LS
     K -->|course done| CS[One-page<br/>cheat sheet]
-    CS --> H[Copied by hand<br/>into study binder]
+    CS --> H[Printed and kept<br/>with my notes]
     S -.-> LS
     S -.-> CS
 ```
@@ -90,7 +90,7 @@ assets/                                 ← images used in this README
 
 ## Tools
 
-**ChatGPT Projects** (instructions, project sources, image and PDF generation) · **Google Drive** (grounding sources, synced to the project) · **Pen and paper** (the part I don't automate)
+**ChatGPT Projects** (instructions, project sources, image and PDF generation) · **Google Drive** (grounding sources, synced to the project) · **Pen and paper** (my notes during lessons, the part I don't automate)
 
 ## Related project
 

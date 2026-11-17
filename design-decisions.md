@@ -28,9 +28,9 @@ The project includes my results from two learning assessments (a learning-prefer
 
 Keeping these apart means I can add a new set of study notes without touching the teaching rules.
 
-## 6. Handwritten output, on purpose
+## 6. Handwritten notes, printed cheat sheet
 
-The cheat sheet is meant to be copied by hand, so it's black and white, pen style, and limited to one A4 sheet. Rewriting it is part of how I retain the material. The constraint also forces real prioritization: if something doesn't fit, it wasn't essential.
+The writing happens during the lessons: I take notes by hand as I go, because that's how I retain the material. The cheat sheet is the reference I keep afterward, so it's limited to one printed A4 sheet. The constraint forces real prioritization: if something doesn't fit, it wasn't essential.
 
 ## 7. Scoped memory
 
