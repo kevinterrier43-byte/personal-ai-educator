@@ -49,28 +49,15 @@ Every lesson uses the same structure, defined in [`instructions/lesson-format.md
 
 ```mermaid
 flowchart TB
-    subgraph Sources["Grounding sources (Google Drive)"]
-        I[Project instructions<br/>+ lesson format]
-        P[Learning profile<br/>assessment-based]
-        N[Sample study notes<br/>handwritten]
-        C[Sample cheat sheets]
-        L[Study list<br/>topics + priority]
-    end
-
-    subgraph Educator["ChatGPT Project"]
-        T[Topic prompt] --> R[Course roadmap]
-        R --> LS[Lessons<br/>6-step format]
-        LS --> K[Knowledge check<br/>+ feedback]
-        K --> LS
-        K --> CS[One-page<br/>cheat sheet]
-    end
-
-    I --> LS
-    P --> LS
-    N --> CS
-    C --> CS
-    L -.-> T
+    S["<b>Grounding sources (Google Drive)</b><br/>Instructions + lesson format · Learning profile<br/>Sample study notes · Sample cheat sheets · Study list"]
+    T[Topic prompt] --> R[Course roadmap]
+    R --> LS[Lesson<br/>6-step format]
+    LS --> K[Knowledge check<br/>+ feedback]
+    K -->|next lesson| LS
+    K -->|course done| CS[One-page<br/>cheat sheet]
     CS --> H[Copied by hand<br/>into study binder]
+    S -.-> LS
+    S -.-> CS
 ```
 
 The Drive folder is organized into three layers so the rules stay stable while the content changes:
