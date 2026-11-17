@@ -34,6 +34,15 @@ I wanted a tutor that would:
 | **5. Cheat sheet** | At the end, it compresses the course into one A4 page (front and back at most), designed to be printed. |
 | **6. Print and keep** | I print the sheet and keep it with my notes for quick reference. |
 
+### What the instructions emphasize
+
+- **Check what I already know.** Before teaching, it looks for my existing study notes, progress and reference files on the topic to find gaps, then reinforces what I haven't mastered instead of repeating what I have.
+- **Only what's relevant.** It's told to retrieve only the files that matter for the current task, not the whole folder.
+- **Accuracy over confidence.** It separates established facts from assumptions and uncertainty, and checks reliable, current sources when accuracy or recency matters.
+- **Assessments as a starting point.** My learning-assessment results are treated as a base to start from, not as the truth.
+- **Scoped memory.** Each topic starts from scratch; it doesn't cut detail based on what I studied in other topics.
+- **Keep it fun.** Every lesson opens with three images of the topic, and emojis are welcome.
+
 ### Lesson format
 
 Every lesson uses the same structure, defined in [`instructions/lesson-format.md`](instructions/lesson-format.md):

@@ -17,6 +17,7 @@ Things I changed after using the educator for my own study.
 - **Lessons that were too short.** Optimizing for concise output sometimes meant thin lessons. The instructions now separate the two: lessons should be thorough, and only the cheat sheet should be compressed.
 - **Carrying over context between topics.** Lessons could trim material based on unrelated past courses, so memory is now scoped to the current topic (see design decision 7).
 - **Inconsistent two-page sheets.** On a front-and-back cheat sheet, the second page sometimes came out in a different style from the first. I now review both pages together and ask for them to match.
+- **Extra quiz questions.** The tutor ended every response with an extra quiz question. I thought I'd like that, but I wasn't using them, so I cut them. The knowledge check inside each lesson stays.
 - **Copying the cheat sheet by hand.** I started out rewriting each finished cheat sheet onto paper. Now the handwriting happens during the lessons, in my notes, and I print the cheat sheet to keep as a reference.
 - **PDF-only output.** I needed an editable version on my Mac to make small fixes, so I ask for that alongside the PDF.
 
