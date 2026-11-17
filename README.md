@@ -8,7 +8,7 @@ A personal AI tutor I designed for how I actually learn. I type a topic, it teac
 
 ![My handwritten study notes (left) and the cheat sheet the educator generated from the course (right)](assets/notes-to-cheat-sheet.jpg)
 
-<sub>Left: a page of my handwritten notes from the Git & GitHub course. Right: the final cheat sheet the educator generated, which I then copy by hand.</sub>
+<sub>Left: a page of my handwritten notes from the Terminal course. Right: the one-page cheat sheet the educator generated, printed with my handwritten additions.</sub>
 
 ---
 
@@ -70,21 +70,19 @@ More detail in [`design-decisions.md`](design-decisions.md).
 
 ## Example outputs
 
-| Git & GitHub cheat sheet, page 1 | Page 2 (back of the sheet) |
-|---|---|
-| ![Git and GitHub cheat sheet, page 1](assets/git-cheat-sheet.jpg) | ![Git and GitHub cheat sheet, page 2](assets/git-cheat-sheet-p2.jpg) |
+![AI Projects cheat sheet](assets/ai-projects-cheat-sheet.jpg)
 
-Generated at the end of the Git & GitHub course, then copied by hand. See [`examples/`](examples/) for more.
+The AI Projects cheat sheet, generated at the end of a course on how to set up AI projects: building blocks, instruction design, files and context, workflows vs. agents, and testing. It even uses this educator as its worked example. See [`examples/`](examples/) for more.
 
 ## Repo contents
 
 ```
 README.md                               ← you are here
-instructions/educator-instructions.md   ← the instructions, with personal links removed
+instructions/educator-instructions.md   ← the project instructions the educator runs on
 instructions/lesson-format.md           ← course roadmap + six-step lesson structure
 design-decisions.md                     ← why it's built this way
 lessons-learned.md                      ← what worked, what didn't, what changed
-examples/                               ← finished cheat sheet and a sample notes page
+examples/                               ← finished cheat sheets and a sample notes page
 assets/                                 ← images used in this README
 ```
 

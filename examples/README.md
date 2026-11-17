@@ -1,15 +1,19 @@
 # Example outputs
 
-A cheat sheet generated at the end of a course. I copy each one by hand into my study binder.
+Cheat sheets the educator generated at the end of a course. I copy each one by hand into my study binder.
 
-## Git & GitHub (2 pages, front and back of one A4 sheet)
+## AI Projects (1 page)
 
-![Git and GitHub cheat sheet, page 1](../assets/git-cheat-sheet.jpg)
+![AI Projects cheat sheet](../assets/ai-projects-cheat-sheet.jpg)
 
-![Git and GitHub cheat sheet, page 2](../assets/git-cheat-sheet-p2.jpg)
+## Terminal (1 page)
+
+Printed, with notes I added by hand while studying.
+
+![Terminal cheat sheet](../assets/terminal-cheat-sheet.jpg)
 
 ## Input: handwritten study notes
 
-A page of my notes from the Git & GitHub course, used as a sample of how I take notes.
+The first page of my notes from the Terminal course.
 
-![Handwritten Git and GitHub study notes](../assets/git-study-notes.jpg)
+![Handwritten Terminal study notes](../assets/terminal-study-notes.jpg)
