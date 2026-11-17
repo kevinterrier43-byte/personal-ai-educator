@@ -48,7 +48,7 @@ Every lesson uses the same structure, defined in [`instructions/lesson-format.md
 ## Architecture
 
 ```mermaid
-flowchart LR
+flowchart TB
     subgraph Sources["Grounding sources (Google Drive)"]
         I[Project instructions<br/>+ lesson format]
         P[Learning profile<br/>assessment-based]
