@@ -4,6 +4,8 @@ Things I changed after using the educator for my own study.
 
 ## What worked
 
+- **Giving it data instead of asking it to guess.** Rather than asking the AI what my learning style is, I gave it evidence to build from: results from two learning assessments, my own study notes, and my finished cheat sheets. The instructions treat the assessments as starting hypotheses, not facts.
+- **Comparing models before changing the design.** I ran design questions through Perplexity Model Council and a local copy of Andrej Karpathy's [LLM Council](https://github.com/karpathy/llm-council), where several models answer, review each other, and a chairman model combines the results. I still made the final call.
 - **A topic as the only prompt.** Removing the setup step made it much easier to actually start studying.
 - **A fixed lesson format.** Once every lesson followed the same six steps, my notes became consistent too, and building the final cheat sheet got easier.
 - **Real samples over descriptions.** Giving the educator my actual handwritten notes and finished cheat sheets worked better than describing the style I wanted.
